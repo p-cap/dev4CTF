@@ -20,7 +20,7 @@ Wx       XW kV kV       mJ  GWlRZ bXMxY2xWc 1V       sZ  FRiR1J5VjJ  0a1YySkdj  
 ### Analysis
 - Looking at the ASCII art saying "nintendo64x8", the characters are based64 encoded. 
 - "x8" meant that the encoded text was encoded 8 times
-- Below, I created a bash script that decodes the text inside the ```output.txt``` 
+- Below, I created a bash script that decodes the text inside the ```output.txt``` 8 times
 ```
 FILENAME: rotate_base64.sh
 
