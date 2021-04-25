@@ -22,6 +22,8 @@ Wx       XW kV kV       mJ  GWlRZ bXMxY2xWc 1V       sZ  FRiR1J5VjJ  0a1YySkdj  
 - "x8" meant that the encoded text was encoded 8 times
 - Below, I created a bash script that decodes the text inside the ```output.txt``` 
 ```
+FILENAME: rotate_base64.sh
+
 #!/bin/bash
 
 if [[ -z $1 ]] 
@@ -47,4 +49,21 @@ do
         *) echo "Usage: rotate_base64 -f FILENAME";;
     esac
 done
+```
+### Using ```rotate_base64.sh````
+- Copy/paste the code inside mentioned above
+- Set the script's permission with ```chmod 700 rotate_base64.sh```
+```
+# WHen running the script alone, it shows the instructions on how to use the script
+~/ >> ./rotate_base64.sh 
+Usage: rotate_base64 -f FILENAME
+== Decodes base64 encoded string 8 times ==
+
+# Using the -h option, the script will show you on how to use the script
+~/ >> ./rotate_base64.sh -h
+Usage: rotate_base64 -f FILENAME
+
+# The -f option with a text file is are required
+~/ >> ./rotate_base64.sh -f output.txt 
+The flag is CHTB{3nc0d1ng_n0t_3qu4l_t0_3ncrypt10n}
 ```
