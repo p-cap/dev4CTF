@@ -38,7 +38,7 @@ The clue was the flag format (CHTB{....})
 - chr(int("2e", 16) ^ ord("C")) => returns the character from the XOR result
 - The 5-byte XOR key is ```mykey```
 ### Python script to decrypt the entire encoded string
-### NOTE: Make you run your script with python3 because python2 does not accept the ```print(chr(j), end='')``` syntax 
+### NOTE: Make sure you run your script with python3 because python2 does not accept the ```print(chr(j), end='')``` syntax 
 ### Script Analysis
 ```
 decode.py
