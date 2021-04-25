@@ -34,8 +34,9 @@ The clue was the flag format (CHTB{....})
 - ord("C") => decimal value of the ASCII character
 - int("2e", 16) ^ ord("C") => XOR'd both output from the operations above
 - chr(int("2e", 16) ^ ord("C")) => returns the character from the XOR result 
-### python script to decrypt the entire encoded string
+### Python script to decrypt the entire encoded string
 ### NOTE: Make you run your script with python3 because python2 does not accept the ```print(chr(j), end='')``` syntax 
+### Script Analysis
 ```
 decode.py
 
@@ -76,5 +77,9 @@ for i in ciphertext:
 for j in flag:
 	print(chr(j), end="")
 ```
-
+### Running the script
+```
+>> python3 decode.py
+CHTB{u51ng_kn0wn_pl41nt3xt}%   
+```
 
