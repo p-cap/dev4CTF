@@ -50,7 +50,7 @@ do
     esac
 done
 ```
-### Using ```rotate_base64.sh````
+### Using ```rotate_base64.sh```
 - Copy/paste the code inside mentioned above
 - Set the script's permission with ```chmod 700 rotate_base64.sh```
 ```
