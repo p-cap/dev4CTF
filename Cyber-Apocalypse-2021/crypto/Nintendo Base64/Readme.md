@@ -19,3 +19,32 @@ Wx       XW kV kV       mJ  GWlRZ bXMxY2xWc 1V       sZ  FRiR1J5VjJ  0a1YySkdj  
 ```
 ### Analysis
 - Looking at the ASCII art saying "nintendo64x8", the characters are based64 encoded. 
+- "x8" meant that the encoded text was encoded 8 times
+- Below, I created a bash script that decodes the text inside the ```output.txt``` 
+```
+#!/bin/bash
+
+if [[ -z $1 ]] 
+then
+	echo "Usage: rotate_base64 -f FILENAME"
+	echo "== Decodes base64 encoded string 8 times =="
+fi
+
+while getopts f:h flag
+do
+    case "${flag}" in
+        f) filename=${OPTARG}
+            encoded_string=$(cat $filename)
+	for d in {1..8}
+	do 
+	encoded_string=$(echo $encoded_string | base64 -d)
+	done
+	echo "The flag is $encoded_string"
+	;;
+
+        h) echo "Usage: rotate_base64 -f FILENAME";;		  
+		
+        *) echo "Usage: rotate_base64 -f FILENAME";;
+    esac
+done
+```
