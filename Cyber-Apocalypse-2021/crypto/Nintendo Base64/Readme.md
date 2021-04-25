@@ -7,6 +7,7 @@ They've tried to scramble data on an N64 but don't seem to understand that encod
 This challenge will raise 33 euros for a good cause
 
 ### output.txt
+```
             Vm                                                   0w               eE5GbFdWW         GhT            V0d4VVYwZ
             G9              XV                                   mx              yWk    ZOV       1JteD           BaV     WRH
                             YW                                   xa             c1              NsWl dS   M1   JQ WV       d4
@@ -15,3 +16,4 @@ Xdz     BWa 2M xVT     FSc  1d   uTl     hi R2h     XWW taS     1dG VXh     XbU 
 JU       RX dZ ak       Zr  U0   ZOc2JGWmlS a3       BY V1       d0 YV       lV MH       hj RVpYYlVaVFRWW  mF lV  mt       3V
 lR       GV 01 ER       kh  Zak  5rVj   JFe VR       Ya Fdha   3BIV mpGU   2NtR kdX     bWx          oT   TB   KW VYxW   lNSM
 Wx       XW kV kV       mJ  GWlRZ bXMxY2xWc 1V       sZ  FRiR1J5VjJ  0a1YySkdj   RVpWVmxKV           1V            GRTlQUT09
+```
