@@ -75,8 +75,6 @@ for i in ciphertext:
 # prints the decoded text all in one line
 for j in flag:
 	print(chr(j), end="")
-
-
 ```
 
 
