@@ -34,4 +34,6 @@ The clue was the flag format (CHTB{....})
 - ord("C") => decimal value of the ASCII character
 - int("2e", 16) ^ ord("C") => XOR'd both output from the operations above
 - chr(int("2e", 16) ^ ord("C")) => returns the character from the XOR result 
+### python script to decrypt the entire encoded string
+
 
