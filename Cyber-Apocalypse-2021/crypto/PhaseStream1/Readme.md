@@ -7,7 +7,9 @@ The clue was the flag format (CHTB{....})
 
 ## Analysis
 - The ciphertext was identified as hexadecimal
-- CipherText and Flag format table layouts the relationship between characters 
+- CipherText and Flag format table layouts the "potential relationship" between characters 
+- Ciphertext: ```2e313f2702184c5a0b1e321205550e03261b094d5c171f56011904```
+- Flag format ```CHTB{....}```
   
 | CipherText | Flag Format |
 | -----------| ------------|
