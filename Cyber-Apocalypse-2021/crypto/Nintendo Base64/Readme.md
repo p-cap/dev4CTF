@@ -51,8 +51,8 @@ do
 done
 ```
 ### Using ```rotate_base64.sh```
-- Copy/paste the code inside mentioned above
-- Set the script's permission with ```chmod 700 rotate_base64.sh```
+- Copy/paste source code
+- Set the script's permission using ```chmod 700 rotate_base64.sh```
 ```
 # WHen running the script alone, it shows the instructions on how to use the script
 ~/ >> ./rotate_base64.sh 
