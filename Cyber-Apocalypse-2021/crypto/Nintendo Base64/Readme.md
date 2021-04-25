@@ -63,7 +63,7 @@ Usage: rotate_base64 -f FILENAME
 ~/ >> ./rotate_base64.sh -h
 Usage: rotate_base64 -f FILENAME
 
-# The -f option with a text file is are required
+# The -f option with a text file are required
 ~/ >> ./rotate_base64.sh -f output.txt 
 The flag is CHTB{3nc0d1ng_n0t_3qu4l_t0_3ncrypt10n}
 ```
