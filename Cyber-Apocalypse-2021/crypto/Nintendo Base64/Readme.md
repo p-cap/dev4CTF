@@ -6,7 +6,7 @@ Fortunately, the aliens haven't played CryptoHack so they're making several noob
 They've tried to scramble data on an N64 but don't seem to understand that encoding and ASCII art are not valid types of encryption!
 This challenge will raise 33 euros for a good cause
 
-### output.txt
+### output.txt => file downloaded from the CTF challenge
 ```
             Vm                                                   0w               eE5GbFdWW         GhT            V0d4VVYwZ
             G9              XV                                   mx              yWk    ZOV       1JteD           BaV     WRH
