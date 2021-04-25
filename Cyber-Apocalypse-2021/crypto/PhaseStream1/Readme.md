@@ -1,11 +1,11 @@
 # PhaseStream1
 
-### Challenge
+## Challenge
 Decode ```2e313f2702184c5a0b1e321205550e03261b094d5c171f56011904```  
 The a 5-byte XOR key was used to create the ciphertext  
 The clue was the flag format (CHTB{....})
 
-### Analysis
+## Analysis
 - The ciphertext was identified as hexadecimal
 - CipherText and Flag format table layouts the relationship between characters 
   
@@ -77,7 +77,7 @@ for i in ciphertext:
 for j in flag:
 	print(chr(j), end="")
 ```
-### Running the script
+## Running the script
 ```
 >> python3 decode.py
 CHTB{u51ng_kn0wn_pl41nt3xt}%   
